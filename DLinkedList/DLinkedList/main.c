@@ -28,8 +28,10 @@ int main(void)
     SetSortRule(&list, WhoIsPrecede); // 정렬기능삽입
     
     // 5개 데이터 저장/////////////////////////////
-    LInsert(&list, 11);  LInsert(&list, 11);
-    LInsert(&list, 44);  LInsert(&list, 22);
+    LInsert(&list, 11);
+    LInsert(&list, 11);
+    LInsert(&list, 44);
+    LInsert(&list, 22);
     LInsert(&list, 33);
     
     // 저장된 데이터의 전체 출력 /////////////////////////
