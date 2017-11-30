@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2214EE5A1FD055DC00D23791 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2214EE591FD055DC00D23791 /* main.c */; };
+		2214EE621FD0560800D23791 /* PriorityQueue.c in Sources */ = {isa = PBXBuildFile; fileRef = 2214EE601FD0560800D23791 /* PriorityQueue.c */; };
+		2214EE651FD0567600D23791 /* UsefulHeap.c in Sources */ = {isa = PBXBuildFile; fileRef = 2214EE631FD0567600D23791 /* UsefulHeap.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		2214EE561FD055DC00D23791 /* PriorityQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PriorityQueue; sourceTree = BUILT_PRODUCTS_DIR; };
 		2214EE591FD055DC00D23791 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		2214EE601FD0560800D23791 /* PriorityQueue.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PriorityQueue.c; sourceTree = "<group>"; };
+		2214EE611FD0560800D23791 /* PriorityQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PriorityQueue.h; sourceTree = "<group>"; };
+		2214EE631FD0567600D23791 /* UsefulHeap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = UsefulHeap.c; sourceTree = "<group>"; };
+		2214EE641FD0567600D23791 /* UsefulHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsefulHeap.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				2214EE591FD055DC00D23791 /* main.c */,
+				2214EE601FD0560800D23791 /* PriorityQueue.c */,
+				2214EE611FD0560800D23791 /* PriorityQueue.h */,
+				2214EE631FD0567600D23791 /* UsefulHeap.c */,
+				2214EE641FD0567600D23791 /* UsefulHeap.h */,
 			);
 			path = PriorityQueue;
 			sourceTree = "<group>";
@@ -119,7 +129,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2214EE651FD0567600D23791 /* UsefulHeap.c in Sources */,
 				2214EE5A1FD055DC00D23791 /* main.c in Sources */,
+				2214EE621FD0560800D23791 /* PriorityQueue.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
