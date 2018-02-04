@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EFE5F51201263CD00DA1F9B /* DLinkedList.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EFE5F50201263CD00DA1F9B /* DLinkedList.c */; };
 		2246D0F51FFE77F30019A8F2 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 2246D0F41FFE77F30019A8F2 /* main.c */; };
-		2246D0FD1FFE78390019A8F2 /* Slot2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2246D0FB1FFE78390019A8F2 /* Slot2.c */; };
 		2246D1001FFE7EDC0019A8F2 /* Table2.c in Sources */ = {isa = PBXBuildFile; fileRef = 2246D0FE1FFE7EDC0019A8F2 /* Table2.c */; };
 		2246D1031FFE84BF0019A8F2 /* Person.c in Sources */ = {isa = PBXBuildFile; fileRef = 2246D1011FFE84BF0019A8F2 /* Person.c */; };
 /* End PBXBuildFile section */
@@ -26,9 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0EFE5F4F201263CD00DA1F9B /* DLinkedList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DLinkedList.h; sourceTree = "<group>"; };
+		0EFE5F50201263CD00DA1F9B /* DLinkedList.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DLinkedList.c; sourceTree = "<group>"; };
 		2246D0F11FFE77F30019A8F2 /* ChainedTableMain */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ChainedTableMain; sourceTree = BUILT_PRODUCTS_DIR; };
 		2246D0F41FFE77F30019A8F2 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		2246D0FB1FFE78390019A8F2 /* Slot2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Slot2.c; sourceTree = "<group>"; };
 		2246D0FC1FFE78390019A8F2 /* Slot2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slot2.h; sourceTree = "<group>"; };
 		2246D0FE1FFE7EDC0019A8F2 /* Table2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Table2.c; sourceTree = "<group>"; };
 		2246D0FF1FFE7EDC0019A8F2 /* Table2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Table2.h; sourceTree = "<group>"; };
@@ -67,12 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				2246D0F41FFE77F30019A8F2 /* main.c */,
-				2246D0FB1FFE78390019A8F2 /* Slot2.c */,
 				2246D0FC1FFE78390019A8F2 /* Slot2.h */,
 				2246D0FE1FFE7EDC0019A8F2 /* Table2.c */,
 				2246D0FF1FFE7EDC0019A8F2 /* Table2.h */,
 				2246D1011FFE84BF0019A8F2 /* Person.c */,
 				2246D1021FFE84BF0019A8F2 /* Person.h */,
+				0EFE5F4F201263CD00DA1F9B /* DLinkedList.h */,
+				0EFE5F50201263CD00DA1F9B /* DLinkedList.c */,
 			);
 			path = ChainedTableMain;
 			sourceTree = "<group>";
@@ -134,9 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EFE5F51201263CD00DA1F9B /* DLinkedList.c in Sources */,
 				2246D1031FFE84BF0019A8F2 /* Person.c in Sources */,
 				2246D1001FFE7EDC0019A8F2 /* Table2.c in Sources */,
-				2246D0FD1FFE78390019A8F2 /* Slot2.c in Sources */,
 				2246D0F51FFE77F30019A8F2 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

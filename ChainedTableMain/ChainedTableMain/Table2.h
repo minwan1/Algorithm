@@ -23,6 +23,6 @@ typedef struct _table{
 void TBLInit(Table * pt, HashFunc * f);
 void TBLInsert(Table * pt, Key k, Value v);
 Value TBLDelete(Table * pt, Key k);
-Value TBLInit(Table * pt, Key k);
+Value TBLSearch(Table * pt, Key k);
 
 #endif /* Table2_h */
